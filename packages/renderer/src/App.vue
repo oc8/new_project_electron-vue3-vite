@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-// import colors from "@/utils/define.js";
+import define from "@/utils/define.ts";
 </script>
 
 <style>
