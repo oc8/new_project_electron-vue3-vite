@@ -1,9 +1,16 @@
 <template>
 	<router-view />
+	<!-- <HomeView /> -->
 </template>
 
 <script setup lang="ts">
-import define from "@/utils/define.ts";
+import { provide } from 'vue';
+// import HomeView from './views/HomeView.vue'
+
+provide('colors', {
+	color0: "#fff",
+	color1: "#000",
+})
 </script>
 
 <style>
