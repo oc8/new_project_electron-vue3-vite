@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import define from "@/utils/define.ts";
+import define from "./utils/define";
 </script>
 
 <style>
@@ -27,6 +27,23 @@ import define from "@/utils/define.ts";
 	text-align: center;
 	color: #2c3e50;
 }
+div {
+	width: 100%;
+	align-items: center;
+}h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1rem;
+}
+h3 {
+	font-size: 0.8rem;
+}
+button {
+	cursor: pointer;
+	background: none;
+	font-size: 1rem;
+}
 a {
 	color: black;
 }
@@ -40,6 +57,20 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+.right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+.space-between {
+	display: flex;
+	justify-content: space-between !important;
 }
 .stack {
 	position: relative;
